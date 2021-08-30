@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class BookShop < ApplicationRecord
   has_many :partners
-  has_many :publishers, :through => :partners
+  has_many :publishers, through: :partners
   validates :book_shop_name, uniqueness: true
 end
