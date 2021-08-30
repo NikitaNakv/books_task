@@ -1,0 +1,22 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  author: one
+  book: one
+
+two:
+  author: two
+  book: one
+
+three:
+  author: one
+  book: two
+
+four:
+  author: two
+  book: three
+
+five:
+  author: two
+  book: four
+
